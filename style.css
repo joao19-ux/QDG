@@ -1,0 +1,351 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f5f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo do título e da seção principal */
+h2 {
+    font-size: 2rem;
+    color: #e67e22;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Container do carrinho */
+.cart-info {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Itens do carrinho */
+#cart-items {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Informações de total */
+.total-info {
+    font-size: 1.2rem;
+    color: #e67e22;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Formulário de pagamento */
+.payment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#payment-method {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Botão de finalizar compra */
+.finalize-btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.finalize-btn:hover {
+    background-color: #d35400;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cart-info {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .finalize-btn {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* menu */
+
+/* Reset de estilo para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f5f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #d35400;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f39c12;
+}
+
+/* Conteúdo principal */
+.content {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Botão estilizado */
+.add-to-cart {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #d35400;
+}
+
+/* Estilo dos itens do menu */
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.menu-price {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para imagens do cardápio */
+.menu-image {
+    width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    .menu-item h3 {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* Janat */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f5f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo do título do cardápio */
+.menu-title {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo do container do menu */
+.menu-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Estilo dos itens do menu */
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+    /* Remove borda do último item */
+}
+
+.menu-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+/* Estilo dos títulos e preços dos itens */
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    flex-grow: 1;
+    /* Faz o título crescer */
+}
+
+.menu-price {
+    font-size: 1.25rem;
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Estilo do botão de adicionar ao carrinho */
+.add-to-cart {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #d35400;
+}
+
+/* Estilo dos links do menu */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d35400;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .menu-title {
+        font-size: 2rem;
+    }
+
+    .menu-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .add-to-cart {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}

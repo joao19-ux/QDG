@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Menu</title>
+    <style>
+        /* Estilo geral */
+        body {
+            background-image: url('https://t3.ftcdn.net/jpg/05/65/58/40/360_F_565584061_Kxd1uKhcYYjFfeMRMNO77DLHNRwAQ4t5.jpg');
+            /* Substitua pela URL da sua imagem */
+            background-size: cover;
+            /* Faz a imagem cobrir todo o fundo */
+            background-position: center;
+            /* Centraliza a imagem */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container de login */
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.9);
+            /* Leve transparência para ver a imagem ao fundo */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Título do login */
+        .login-container h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo dos campos de entrada */
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+        }
+
+        /* Botão de login */
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Menu de navegação */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="Menu.html" method="POST">
+            <div class="login">
+                <h3>Faça o Login</h3>
+                <div class="Email">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+                <div class="Senha">
+                    <label for="exampleInputPassword1" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" />
+                </div>
+                <button class="Entrar" type="submit">
+                    <a href="Menu.html">Entrar</a>
+                    </buttontype="menu" class="login-button"></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
